@@ -1,0 +1,3 @@
+# 347. [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements)
+
+Quickselect is a textbook algorthm typically used to solve the problems "find kth something": $k$th smallest, $k$th largest, $k$th most frequent, $k$th less frequent, etc. This question is the same. Use "Counter" function in collection package to generate a list that contains all elements in the list with their frequency, and solve it with quick select idea.
