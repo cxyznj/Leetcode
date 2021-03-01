@@ -1,0 +1,3 @@
+# 1673. Find the Most Competitive Subsequence
+
+To crack this problem. We must notice that the more competitive subsequence have less elements in the front. And a most competitive subsequence will be ascending order in the front as much as possible. For example, if A = [1, 2, 3, 5, 4, 6] is the most competitive subsequence in sequence S. then if there still have element in the end of the S, then B = [1, 2, 3, 4, 6, x]. B is obviously more competitive than A no matter what the value of x. If x is bigger than 6, that is great. Otherwise subsequece did better to make it front ascending order. So it is a typical stack problem.
